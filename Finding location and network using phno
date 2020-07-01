@@ -1,0 +1,6 @@
+import phonenumbers
+from phonenumbers import geocoder, carrier
+ph=phonenumbers.parse("+919858301156")
+print(geocoder.description_for_number(ph,'hi'))
+ph=phonenumbers.parse("+919005328661")
+print(carrier.name_for_number(ph,'en'))
