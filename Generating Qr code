@@ -1,0 +1,5 @@
+import pyqrcode
+from pyqrcode import QRCode
+qrl=("https://www.youtube.com/channel/UCYG7oLBAjbhseDDmVcViS-Q")  #Link, which you have to generate qr code
+qrl=pyqrcode.create(qrl)
+qrl.svg("yesgcoding.svg",scale=10)
